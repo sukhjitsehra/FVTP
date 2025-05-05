@@ -57,15 +57,18 @@ FTVP/
 ## ⚙️ Installation
 
 1. Clone Repository
+'''
 git clone https://github.com/your-username/FTVP.git
 cd FTVP
-
+'''
 2. Set Up Environment
+'''
 python -m venv venv
 source venv/bin/activate    # Linux/MacOS
 .\venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
+'''
 
 ## 📊 Running Experiments
 1. Data Preparation and Model Training
