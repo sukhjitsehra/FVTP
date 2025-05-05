@@ -23,24 +23,7 @@ This project implements and evaluates two LSTM-based fusion strategies (Early an
 
 ## Project Structure
 
-FTVP/
-├── fusilli/
-│   ├── fusionmodels/
-│   │   └── tabularfusion/
-│   │       └── lstm_fusion.py   # Fusion LSTM models
-│   ├── data.py                  # Data loading & preprocessing logic
-│   └── train_lstm.py            # Main training script
-│
-├── data/
-│   └── ngsim_subset.csv         # NGSIM Dataset subset used for training
-│
-├── images/
-│   ├── architecture.png         # Model architecture diagram
-│   ├── results.png              # Experimental results and visualizations
-│   └── pipeline.png             # Data pipeline illustration
-│
-├── requirements.txt             # Python dependencies
-└── README.md                    # Project documentation
+<pre> ## Project Structure FTVP/ ├── fusili/ │ ├── fusionmodels/ │ │ └── lstm_fusion.py # Fusion LSTM models │ ├── tabularfusion/ │ │ └── train_lstm.py # Main training script │ └── data.py # Data loading & preprocessing logic ├── data/ │ └── ngsim_subset.csv # NGSIM Dataset subset used for training images/ ├── architecture.png # Model architecture diagram ├── results.png # Experimental results and visualizations ├── pipeline.png # Data pipeline illustration requirements.txt # Python dependencies README.md # Project documentation </pre>
 
 
 ## 📂 File Structure:
