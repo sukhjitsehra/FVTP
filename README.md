@@ -17,9 +17,31 @@ This project implements and evaluates two LSTM-based fusion strategies (Early an
 * Late Fusion: LSTMLateFusion.
 * Metrics: MSE, MAE, R², Accuracy.
 
-
 4. Results Visualization:
 * Comparative analysis of model performance.
+
+
+## Project Structure
+
+FTVP/
+├── fusilli/
+│   ├── fusionmodels/
+│   │   └── tabularfusion/
+│   │       └── lstm_fusion.py   # Fusion LSTM models
+│   ├── data.py                  # Data loading & preprocessing logic
+│   └── train_lstm.py            # Main training script
+│
+├── data/
+│   └── ngsim_subset.csv         # NGSIM Dataset subset used for training
+│
+├── images/
+│   ├── architecture.png         # Model architecture diagram
+│   ├── results.png              # Experimental results and visualizations
+│   └── pipeline.png             # Data pipeline illustration
+│
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
+
 
 ## 📂 File Structure:
 | File/Folder             | Description                                    |
