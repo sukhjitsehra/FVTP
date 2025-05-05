@@ -2,7 +2,7 @@
 This project implements and evaluates two LSTM-based fusion strategies (Early and Late Fusion) for predicting vehicle trajectories using spatio-temporal data from the NGSIM US-101 highway dataset.
 
 ## 🚗 Project Overview
-# Pipeline:
+### Pipeline:
 
 1. Data Ingestion & Preprocessing:
 * Raw NGSIM vehicle trajectory CSV data.
