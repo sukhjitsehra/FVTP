@@ -27,6 +27,7 @@ This project implements and evaluates two LSTM-based fusion strategies (Early an
 FTVP/
 ├── fusili/
 │   ├── fusionmodels/
+        ├── base_model.py          # base model from fusilli
 │   │   └── lstm_fusion.py         # Fusion LSTM models
 │   ├── tabularfusion/
 │   │   └── train_lstm.py          # Main training script
